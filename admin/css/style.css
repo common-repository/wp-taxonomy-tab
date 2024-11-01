@@ -1,0 +1,74 @@
+.TabSelect {
+  padding: 10px 5px;
+}
+.post-types,.post-taxonomy {
+  clear: both;
+  overflow: hidden;
+}
+.TabSelect p {
+  /*float: left;*/
+  font-size: 15px;
+  line-height: 30px;
+  margin: auto;
+  /*width: 33%;*/
+}
+.TabSelect .tab-input,.TabSettings td {
+  width: 50%;
+}
+.TabSelect {
+  width: 75%;
+}
+select.tab-input {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-bottom: 1px solid #ccc;
+  border-image: none;
+  border-left: 1px solid #ccc;
+  border-radius: 3px;
+  border-top: 1px solid #ccc;
+  height: 33px;
+}
+#WPTabs ul{margin: auto;}
+#WPTabs ul li{
+  display: inline-block;
+  margin-bottom: 0;
+}
+#WPTabs ul li a{
+  background: #0091cd none repeat scroll 0 0;
+  display: inline-block;
+  list-style: outside none none;
+  padding: 8px 15px;
+  text-decoration: none;
+  color:#ffffff;
+  font-weight: 600;
+}
+#WPTabs ul li a{
+  background: #0091CD;
+}
+.title-tabs {
+  border: 1px solid #ccc;
+  padding: 22px 15px;
+  margin-bottom: 20px;
+}
+.TabSettings span {
+  color: #82878c;
+  font-size: 11px;
+  margin-left: 10px;
+}
+.WpTabTaxonomy {
+  margin: 20px auto;
+}
+.TabSelect h2{
+	font-size: 17px !important;
+}
+.TabSettings tr{position: relative;}
+.wp-picker-holder {
+  position: absolute;
+  right: -50px;
+  z-index: 9999;
+}
+.TabSettings h2,.wptabs_shortcode h2 {
+    padding: 10px 0px !important;
+}
